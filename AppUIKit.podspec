@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AppUIKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "AppUIKit 是 Objective-C 语言的 UI 框架，有多个常用的 UI 组件."
 
   # This description is used to generate tags and improve search results.
