@@ -4,7 +4,7 @@
     git add -A && git commit -m ""
     git push origin master
     git tag 0.0.2
-    git push origin 0.0.2
+    git push origin 0.0.3
 
     关联远程配置文件
     cd ~/.cocoapods/repos

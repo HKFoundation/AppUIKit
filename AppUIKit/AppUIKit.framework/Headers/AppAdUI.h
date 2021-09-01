@@ -50,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) CGSize size;
 
 /// 用于控制是否无限循环 Default NO
-@property (nonatomic, assign) BOOL bool_loop;
+@property (nonatomic, assign) BOOL repeat;
 
 /// 用于控制覆盖层透明度 Default 0.3
 @property (nonatomic, assign) CGFloat alphaForCover;
@@ -58,6 +58,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 所有属性设置完成后，调用该方法
 - (void)configUpdateFunc;
 
+/// 获取当前缓存中的实例
 - (AppAdItemUI *)dequeueAppAdItem;
 
 @end
